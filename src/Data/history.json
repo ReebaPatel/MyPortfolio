@@ -1,0 +1,30 @@
+[
+    {
+        "role":"Web Developer Intern",
+        "organisation":"NexGeno",
+        "startdate":"June, 22",
+        "enddate":"Aug, 22",
+        "experience":"Built a portfolio website as a task given. Built Amazon web page clone.",
+        "Usedtech":"HTML, CSS, Bootstrap, PHP",
+        "imagesrc":"history/nexgeno.png"
+    },
+    {
+        "role":"Web Developer Intern",
+        "organisation":"SkillWinner",
+        "startdate":"Jan, 24",
+        "enddate":"Mar, 24",
+        "experience":"Built a lot of projects",
+        "Usedtech":"HTML, CSS, Reactjs, Nodejs, MongoDB",
+        "imagesrc":"history/skillwinner.png"
+    },
+    {
+        "role":"Web Developer Intern",
+        "organisation":"Scripteco",
+        "startdate":"June, 22",
+        "enddate":"Aug, 22",
+        "experience":"Rebuilding of a project",
+        "Usedtech":"HTML, CSS, Bootstrap, Javascript",
+        "imagesrc":"history/scripteco.png"
+    }
+
+]

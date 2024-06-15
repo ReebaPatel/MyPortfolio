@@ -1,0 +1,105 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+}
+
+.title {
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Outfit",Arial, Helvetica, sans-serif;
+}
+.aboutsection{
+    background-color: #0C0C0C;
+    background-color: #0C0C0C;
+    margin: 10%;
+    border-radius: 57px;
+    padding: 1px
+}
+.aboutimg {
+    height: 100%;
+    width: 40%;
+    margin: 5%;
+}
+.aboutimg img{
+    height: 90%;
+    width: 70%;
+    padding-left: 10px;
+}
+/* .list{
+    margin-left: 0;
+} */
+.listoptions {
+    display: flex;
+    padding: 3vh;
+    margin: 2vh;
+    color: var(--color-text);
+    font-family: "Outfit",Arial, Helvetica, sans-serif;
+    gap: 2vw;
+    background: linear-gradient(90deg, rgba(255,255,255,0.42)0%, rgba(255,255,255,0)100%);
+    border-radius: 20px;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.listoptions:hover{
+    background-size: 100% 100%;
+}
+.listoptions img{
+    height: 70px;
+    width: 70px;
+}
+.listtitle{
+    font-size: 30px;
+}
+.listdesc{
+    font-size: 20px;
+    line-height: 3vw;
+}
+
+@media screen and (max-width:830px) {
+    .aboutsection {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .aboutimg{
+
+        display: none;
+    }
+    .listoptions {
+        display: flex;
+        padding: 3vh;
+        margin: 4vh;
+        color: var(--color-text);
+        font-family: "Outfit",Arial, Helvetica, sans-serif;
+        gap: 2vw;
+        background: linear-gradient(90deg, rgba(255,255,255,0.42)0%, rgba(255,255,255,0)100%);
+        border-radius: 20px;
+        background-size: 0 100%;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+    .listoptions:hover{
+        background-size: 100% 100%;
+    }
+    .listoptions img{
+        height: 50px;
+        width: 50px;
+    }
+    .listtitle{
+        font-size: 20px;
+    }
+    .listdesc{
+        margin-top: 2%;
+        font-size: 15px;
+        line-height: 4vw;
+    }
+}
