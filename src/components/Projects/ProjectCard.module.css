@@ -1,0 +1,27 @@
+@import "../../vars.css";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(100deg, #576cbc 0%, #132a53 );
+    box-shadow: 0 16px 14px #04152d;
+    padding: 18px 24px ;
+    max-width: 263px;
+    height: 600px;
+}
+
+.image{
+    margin-bottom: 26px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700 ;
+}
+
+.description{
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 400;
+}

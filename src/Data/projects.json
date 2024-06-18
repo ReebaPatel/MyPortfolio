@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Sign-to-text and speech Transcriber using Python",
+        "imageSrc": "projects/project.png",
+        "description": "Developed an innovative Python-based Sign-to-Text and Speech Transcriber using OpenCV and gtts, for the Deaf and Mute community; by converting sign language to text and speech."
+    },
+    {
+        "title": "ECELL-FCRIT E-Summit Websit",
+        "imageSrc": "projects/project.png",
+        "description": "Worked alongside two team members to develop the website using HTML, CSS, Bootstrap, and JavaScript to ensure its design and functionality met our objectives effectively."
+    },
+    {
+        "title": " Website Project for a BMC/BARC Contractor",
+        "imageSrc": "projects/project.png",
+        "description": "Executed the development and launch of an Informational Website Project for a BMC/BARC Contractor showcasing past projects and services using HTML, CSS, Reactjs, Expressjs, and Nodejs."
+    }
+]

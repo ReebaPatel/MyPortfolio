@@ -7,33 +7,46 @@ import history from "../../Data/history.json";
 
 export const Experience = () => {
     return (
-        <section id='experience'>
-            <h2>EXPERIENCE</h2>
-            <div className="container">
-                <div>{
+        <section className={styles.container} id='experience'>
+            <h2 className={styles.title}> EXPERIENCE</h2>
+            <div className={styles.content}>
+                <div className={styles.skills}>{
                     skills.map((skill, id) => {
                         return (
-                            <><div key={id}>
-                                <div><img src={getImageUrl(skill.imageSrc)} alt="{skill.title}" /></div>
-                            </div><p>{skill.title}</p></>
+                            <>
+                                <div key={id} className={styles.skill}>
+                                    <div className={styles.skillimgcontainer}>
+                                        <img src={getImageUrl(skill.imageSrc)} alt="{skill.title}" />
+                                    </div>
+                                    <p>{skill.title}</p>
+                                </div>
+                            </>
                         );
                     }
                     )
                 }
                 </div>
-                <ul>
+                <ul className={styles.history}>
                     {
                         history.map((historyItem, id) => {
                             return (
                                 <>
-                                    <li key={id}>
-                                        <img src={getImageUrl(historyItem.imagesrc)} alt={`${history.organisation} Logo`} />
+                                    <li key={id} className={styles.historyitem}>
+                                        <img src={getImageUrl(historyItem.imagesrc)}
+                                            alt={`${history.organisation} Logo`} />
+                                        <div className={styles.historyitemdetails}>
+                                            <h3>{`${historyItem.role},${historyItem.organisation}`}</h3>
+                                            <p>{`${historyItem.startdate}-${historyItem.enddate}`}</p>
+                                            {/* <ul>
+                                                {historyItem.experiences.map((experience, id) => {
+                                                    return (<li key={id}>{experience}</li>);
+                                                })}
+                                            </ul> */}
+                                        </div>
                                     </li>
-                                    <div>
-                                        <h3></h3>
-                                    </div>
+
                                 </>
-                            )
+                            );
                         })
                     }
                 </ul>
