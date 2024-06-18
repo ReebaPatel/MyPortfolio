@@ -20,7 +20,7 @@ const Contact = () => {
                 </li>
                 <li className={styles.link}>
                     <img src={getImageUrl("contact/github.png")} alt="github icon " />
-                    <a href="mailto:reebapatel2210@gmail.com">reebapatel2210@gmail.com</a>
+                    <a href="https://github.com/ReebaPatel">https://github.com/ReebaPatel</a>
                 </li>
             </ul>
         </footer>
